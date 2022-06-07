@@ -1,0 +1,76 @@
+#root {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+}
+
+.dashboardBlock, .reviewsBlock, .averageBlock, .sentimentBlock, .visitorsBlock {
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box1 {
+    
+}
+
+.box2 {
+    display: flex;
+    height: 50%;
+    flex-basis: 75%;
+}
+
+.dashboardBlock {
+    height: 100%;
+    flex-basis: 25%;
+    display: flex;
+    word-wrap: normal;
+    align-items: center;
+}
+
+.reviewsBlock, .averageBlock, .sentimentBlock {
+    flex-basis: 33.3%;
+}
+
+.reviewsBlock {
+        
+}
+
+.averageBlock {
+    
+}
+
+.sentimentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.visitorsBlock {
+    height: 100%;
+    flex-basis: 75%;
+    overflow: auto;
+}
+
+.data{
+    align-self: center;
+    text-align: justify;
+    margin: 10px 0 10px 0;
+    width: min-content;
+}
+
+.graphBlock {
+    background-color: gray;
+    height: 50%;
+    margin: 10px;
+}
